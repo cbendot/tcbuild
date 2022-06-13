@@ -105,7 +105,7 @@ tg_post_msg "<b>Pushed to Repository Started...</b>%0A<b>Clang Version : </b><co
 # Update Git repository
 git config --global user.name $GH_USERNAME
 git config --global user.email $GH_EMAIL
-git clone "https://cbendot:$GH_TOKEN@$GH_PUSH_REPO_URL" rel_repo
+git clone "https://ben863:$GL_TOKEN@$GL_PUSH_REPO_URL" rel_repo
 pushd rel_repo || exit
 rm -fr ./*
 cp -r ../install/* .
