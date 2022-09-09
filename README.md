@@ -1,4 +1,4 @@
-# Toolchain build scripts
+# Toolchain build scripts [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5a52932a07d34073985ded675a367b09)](https://www.codacy.com/gh/cbendot/tcbuild/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cbendot/tcbuild&amp;utm_campaign=Badge_Grade)
 
 There are times where a tip of tree LLVM build will have some issue fixed and it isn't available to you, maybe because it isn't in a release or it isn't available through your distribution's package management system. At that point, to get that fix, LLVM needs to be compiled, which sounds scary but is [rather simple](https://llvm.org/docs/GettingStarted.html). The `build-llvm.py` script takes it a step farther by trying to optimize both LLVM's build time by:
 
